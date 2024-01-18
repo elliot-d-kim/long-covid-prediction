@@ -18,13 +18,13 @@ A summary of our project follows, but this repository also includes the formal [
 
 ## Problem Context
 
-While COVID-19 in its acute form is widely discussed and researched, Long COVID&mdash;when some COVID symptoms persist even after COVID tests return negative&mdash;is poorly understood. Persisting symptoms reportedly include: loss of smell or taste, shortness of breath, heart problems, anxiety, headaches, and fatigue. As of July 2021, Long COVID is officially considered a form of disability under the Americans with Disabilities Act (ADA).
+While COVID-19 in its acute form is widely discussed and researched, long COVID&mdash;when some COVID symptoms persist even after COVID tests return negative&mdash;is poorly understood. Persisting symptoms reportedly include: loss of smell or taste, shortness of breath, heart problems, anxiety, headaches, and fatigue. As of July 2021, long COVID is officially considered a form of disability under the Americans with Disabilities Act (ADA).
 
 ## Goals
 
 Use machine learning to:
-* Identify Long COVID risk factors
-* Predict Long COVID in patients
+* Identify long COVID risk factors
+* Predict long COVID in patients
 
 ## Methods and Results
 
@@ -34,7 +34,7 @@ Dataset: COVID-19 Fall 2020 & Winter 2021 Community Supplement, MCBS (Medicare C
 
 **Dimensionality reduction**: Removed obviously irrelevant features such as 'user_id' and week of interview (**feature selection**) and consolidated functionally similar features (**feature extraction**), reducing the complexity of the data
 
-**Resampling**: Upsampled Long COVID&ndash;negative patients in training set due to low representation in original dataset, enhancing quality of training data
+**Resampling**: Upsampled long COVID&ndash;negative patients in training set due to low representation in original dataset, enhancing quality of training data
 
 ### Building the ML model
 
@@ -51,7 +51,7 @@ Ultimately, our random forest model achieved 72.3% accuracy and 81.5% precision 
 
 ### Analyzing Risk Factors
 
-To find the most significant risk factors, we compared the potential risk factors by their **Gini feature importance**. Among the sociodemographic and clinical factors in our analysis, the top risk factor for Long COVID was **severity of COVID in its acute stage**.
+To find the most significant risk factors, we compared the potential risk factors by their **Gini feature importance**. Among the sociodemographic and clinical factors in our analysis, the top risk factor for long COVID was **severity of COVID in its acute stage**.
 
 ![image](<./paper/Figure6.jpeg>)
 
@@ -98,4 +98,3 @@ jupyter notebook
 ## Acknowledgements
 
 * This project was the final project for Professor Ben Mitchell's CPSC 66 Machine Learning course in Fall 2021. Thanks to Professor Mitchell for his guidance.
-
