@@ -51,7 +51,7 @@ Using scikit-learn, implemented several machine learning models, including:
 * SVM
 * Naive Bayes
 
-Used validation curves and confusion matrices to tune models' hyperparameters, enhancing accuracy for some models.
+Used validation curves and confusion matrices to tune models' hyperparameters, enhancing accuracy for Logistic Regression, SVM, and Naive Bayes.
 
 Ultimately, our random forest model achieved 72.3% accuracy and 81.5% precision for predicting Long COVID in patients.
 
