@@ -89,7 +89,7 @@ jupyter notebook
 
 ## Technologies Used
 
-* Python 3.6
+* Python 3.8
 * scikit-learn
 * Pandas
 * NumPy
