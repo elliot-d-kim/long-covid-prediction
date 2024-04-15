@@ -2,9 +2,13 @@
 
 ## Overview
 
-A machine learning model built in Python to answer the questions 1) What are risk factors for long COVID? and 2) Can we predict long COVID in patients? Final project for CPSC 66 Machine Learning (Fall 2021), with Emma Jin and Victoria Song.
+A machine learning model built in Python to answer the following questions:
+1. What are clinical and sociodemographic risk factors for long COVID?
+2. Can we predict long COVID in patients?
 
-A summary of our project follows. This repository also includes the [final presentation slides](https://github.com/elliot-d-kim/long-covid-prediction/blob/main/presentation/Final%20Presentation%20For%20CS66.pdf) and formal [research paper](https://github.com/elliot-d-kim/long-covid-prediction/blob/main/paper/paper.pdf).
+Final project for CPSC 66 Machine Learning (Fall 2021), with Emma Jin and Victoria Song.
+
+A summary of our project follows. Our [presentation slides](https://github.com/elliot-d-kim/long-covid-prediction/blob/main/presentation/Final%20Presentation%20For%20CS66.pdf) and formal [research paper](https://github.com/elliot-d-kim/long-covid-prediction/blob/main/paper/paper.pdf) are also included in this repository.
 
 ## Table of Contents
 
@@ -28,7 +32,9 @@ Use machine learning to:
 
 ## Methods and Results
 
-Dataset: COVID-19 Fall 2020 & Winter 2021 Community Supplement, MCBS (Medicare Current Beneficiary Survey)
+Datasets: [COVID-19 Fall 2020 & Winter 2021 Community Supplement, MCBS (Medicare Current Beneficiary Survey)](https://data.cms.gov/medicare-current-beneficiary-survey-mcbs/medicare-current-beneficiary-survey-covid-19-supplement)
+* 20,000+ patients
+* 390 columns
 
 ### Data Pre-processing
 
